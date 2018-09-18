@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MSG Toons</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_youtube_comment_layout">youtube_comment_layout</string>
+    <string name="title_activity_landing">landing</string>
+    <string name="title_activity_play_list">PlayListActivity</string>
+</resources>
