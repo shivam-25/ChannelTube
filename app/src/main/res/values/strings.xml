@@ -7,4 +7,9 @@
     <string name="title_activity_youtube_comment_layout">youtube_comment_layout</string>
     <string name="title_activity_landing">landing</string>
     <string name="title_activity_play_list">PlayListActivity</string>
+    <string name="image_thumbnail">image thumbnail</string>
+    <string name="video_title">video title</string>
+    <string name="profile_image">profile image</string>
+    <string name="video_published_at">Video Published At</string>
+    <string name="video_description">video description</string>
 </resources>

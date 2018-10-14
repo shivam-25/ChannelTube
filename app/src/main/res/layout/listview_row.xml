@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    app:contentPadding="8dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="1dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_margin="16dp" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <RelativeLayout
+        <ImageView
+            android:id="@+id/ImageThumb"
             android:layout_width="match_parent"
-            android:layout_height="200dp">
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image_thumbnail" />
 
-            <ImageView
-                android:id="@+id/ImageThumb"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop" />
-
-
-        </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_margin="10dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textViewTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="22dp"
-                android:text="video Title"
-                android:singleLine="true"
-                android:textColor="@android:color/white" />
-
-        </LinearLayout>
+            android:layout_margin="8dp"
+            android:textAlignment="center"
+            android:layout_gravity="center|bottom"
+            android:textSize="22sp"
+            android:text="@string/video_title"
+            android:singleLine="true" />
     </LinearLayout>
-</LinearLayout>
+</android.support.v7.widget.CardView>
